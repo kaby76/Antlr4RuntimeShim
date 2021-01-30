@@ -2,10 +2,25 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+	  <RootNamespace>Antlr4RuntimeShim</RootNamespace>
+	  <AssemblyName>Antlr4RuntimeShim</AssemblyName>
+	  <PackageId>Antlr4RuntimeShim</PackageId>
+	  <Version>0.0.2</Version>
+	  <Authors>Ken Domino</Authors>
+	  <Product />
+	  <Description></Description>
+	  <Copyright>Copyright © 2021</Copyright>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageProjectUrl>https://github.com/kaby76/Antlr4RuntimeShim</PackageProjectUrl>
+	  <RepositoryUrl>https://github.com/kaby76/Antlr4RuntimeShim</RepositoryUrl>
+	  <RepositoryType>Git</RepositoryType>
+	  <PackageTags>Antlr</PackageTags>
+	  <PackageReleaseNotes>For further information, see https://github.com/kaby76/Antlr4RuntimeShim.</PackageReleaseNotes>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Antlr4.Runtime.Standard" Version="4.8.0" />
+    <PackageReference Include="Antlr4.Runtime.Standard" Version="4.9.1" />
   </ItemGroup>
 
 </Project>

@@ -6,19 +6,21 @@ namespace CompatShim
 {
     public class Interval
     {
-        private Antlr4.Runtime.Misc.Interval interval;
+        private Antlr4.Runtime.Misc.Interval _interval;
 
-
-
+        public Interval(Antlr4.Runtime.Misc.Interval interval)
+        {
+            _interval = interval;
+        }
 
         public int a
         {
-            get { return interval.a; }
+            get { return _interval.a; }
         }
 
         public int b
         {
-            get { return interval.b; }
+            get { return _interval.b; }
         }
 
         public static int creates
